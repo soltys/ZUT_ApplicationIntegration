@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <book id="TIXML">
+    <title>Tablice informatyczne. XML</title>
+    <authors>
+      <author>Krzysztof Kozłowski</author>
+      <author>Sławomir Zimosz</author>
+    </authors>
+    <isbn>83-246-0590-8</isbn>
+    <publisher>
+      <id>Helion</id>
+      <name>Helion</name>
+      <url>http://helion.pl</url>
+    </publisher>
+    <year>2007</year>
+    <keywords>xml, data</keywords>
+    <pages>100</pages>
+  </book>
+  <book id="CWJAV3">
+    <title>Java. Ćwiczenia praktyczne. Wydanie III</title>
+    <authors>
+      <author>Marcin Lis</author>
+    </authors>
+    <isbn>978-83-246-2785-1</isbn>
+    <publisher>
+      <id>Helion</id>
+      <name>Helion</name>
+      <url>http://helion.pl</url>
+    </publisher>
+    <year>2011</year>
+    <keywords>java, excercise</keywords>
+    <pages>200</pages>
+  </book>
+  <book id="asd" >
+    <title>
+      Java. Przygotowanie do programowania na platformę
+      Android
+    </title>
+    <authors>
+      <author>Jeff Friesen</author>
+    </authors>
+    <isbn>978-83-246-3372-2</isbn>
+    <publisher>
+      <id>Helion</id>
+      <name>Helion</name>
+      <url>http://helion.pl</url>
+    </publisher>
+    <year>2011</year>
+    <keywords>java, programming</keywords>
+    <pages>300</pages>
+  </book>
+</books>
