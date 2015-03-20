@@ -1,0 +1,5 @@
+{{outlet}}
+<h2 id="title">Welcome to index</h2>
+{{#each book in model}}
+  <p>{{book.title}} {{#link-to 'publishers' book.publisher }} {{book.publisher.id}} {{/link-to}}</p>
+{{/each}}

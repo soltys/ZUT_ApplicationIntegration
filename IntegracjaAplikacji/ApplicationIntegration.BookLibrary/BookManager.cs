@@ -10,7 +10,7 @@ namespace ApplicationIntegration.BookLibrary
     {
         private List<Book> _books;
 
-        public BookManager(List<Book> books )
+        public BookManager(List<Book> books)
         {
             _books = books;
         }

@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationIntegration.SOAPService2", "SOAPService2\ApplicationIntegration.SOAPService2.csproj", "{20991BBB-1DDA-4379-BFD4-AD50E6C2DBDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationIntegration.BookLibrary", "ApplicationIntegration.BookLibrary\ApplicationIntegration.BookLibrary.csproj", "{052471DA-4C73-44F6-9157-0145916420EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationIntegration.BookLibrary.Tests", "ApplicationIntegration.BookLibrary.Tests\ApplicationIntegration.BookLibrary.Tests.csproj", "{24D53A7B-B72B-4598-B951-7A2E91C0FA9B}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ApplicationIntegration.PythonClient", "ApplicationIntegration.PythonClient\ApplicationIntegration.PythonClient.pyproj", "{2AA69316-8A96-43D3-8B51-0509EAB42750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,8 +27,6 @@ Global
 		{24D53A7B-B72B-4598-B951-7A2E91C0FA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24D53A7B-B72B-4598-B951-7A2E91C0FA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24D53A7B-B72B-4598-B951-7A2E91C0FA9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AA69316-8A96-43D3-8B51-0509EAB42750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AA69316-8A96-43D3-8B51-0509EAB42750}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

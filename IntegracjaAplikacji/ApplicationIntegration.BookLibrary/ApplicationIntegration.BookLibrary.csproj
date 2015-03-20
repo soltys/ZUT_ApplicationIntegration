@@ -42,10 +42,14 @@
     <Compile Include="Book.cs" />
     <Compile Include="BookManager.cs" />
     <Compile Include="BookXmlReader.cs" />
+    <Compile Include="EmbeddedData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\books.xml" />
+    <EmbeddedResource Include="Data\books.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Data\books.xsd">
